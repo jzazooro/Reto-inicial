@@ -6,12 +6,14 @@ D
 
 ### CODIGO CABALLO
 
+```
 def formulauno(ind):
     solucion = 6*ind+8*ind-4+4*ind-4
     return solucion
-    
+```
 ### CODIGO REINA
-    
+
+```
 class formulados():
     def __init__(self, t):
         self.t = t
@@ -37,10 +39,11 @@ class formulados():
                 else:
                     pass
         return resultado
-    
+```
     
 ### CODIGO MAIN
 
+```
 from clases.caballo import formulauno
 from clases.reina import formulados
 def main():
@@ -58,3 +61,4 @@ def main():
 
 if __name__=='main':
     main()
+```
